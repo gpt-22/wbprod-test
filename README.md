@@ -1,5 +1,10 @@
 # wbprod-test
 
+## Ссылка для просмотра
+```
+https://gtikhomiroff.github.io/wbprod-test/
+```
+
 ## Project setup
 ```
 yarn install
