@@ -7,7 +7,7 @@
     </p>
 
     <v-row>
-      <v-col v-for="order in orders" :key="order.id" xs="12" sm="6" md="4" lg="3" xl="2">
+      <v-col v-for="order in orders" :key="order.id" xs="12" sm="6" md="4" lg="3" xl="2" class="mb-14">
         <order-card :order="order" />
       </v-col>
     </v-row>
@@ -29,12 +29,13 @@ export default {
     }
   },
   created() {
+    // типа запрос на заказы
     this.orders = orders
   }
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .subtitle {
   line-height: 22px;
 }
