@@ -1,0 +1,19 @@
+.grey--text {
+  color: $secondary;
+}
+
+.v-chip {
+  &.v-size--default {
+    height: initial;
+  }
+}
+
+.theme--dark {
+  &.v-application {
+    background: $color-background;
+  }
+
+  &.v-card {
+    background-color: #232633;
+  }
+}
